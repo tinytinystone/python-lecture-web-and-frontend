@@ -1,0 +1,6 @@
+*.log
+
+.vscode/*
+
+chapter04/*
+example/*
