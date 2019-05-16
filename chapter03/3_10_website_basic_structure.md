@@ -1,5 +1,8 @@
 # 3-10. 웹사이트 기본 구조
 
+- 실습 사이트 예제: https://python-lecture-example-1.netlify.com/
+- 코드: https://github.com/tinytinystone/python-lecture-example/tree/3_10_website_basic_structure
+
 웹사이트의 기본적인 구조를 그려보는 시간을 가지겠습니다. 보이는 배치(디자인)에 따르는 것이 아니라 콘텐츠의 논리적 흐름에 따라 짜야 합니다.
 
 먼저, 일반적인 웹사이트 구조를 살펴보고, 이에 따라 의미에 맞는 태그를 사용해 보도록 하겠습니다. 의미에 맞는 태그라는 용어를 시멘틱이라고 부르기도 합니다. 시멘틱한 사이트를 만들기 위하여 웹사이트 구조를 만드는 태그가 별도로 있습니다. mdn에 올라와 있는 사이트 예제를 먼저 보겠습니다.
@@ -20,14 +23,18 @@ side bar 영역은 기타 정보나 링크, 광고 등의 내용이 들어갑니
 
 footer 영역은 주소, 카피라이트, 연락처 정보 등이 포함됩니다. header 부분에 비해서는 중요도가 약간은 떨어지는 정보들이 들어간다고 생각하시면 됩니다. footer라는 태그를 주로 사용합니다.
 
-우리가 앞으로 만들게 될 사이트들은 이보다 좀 더 복잡한 경우가 많습니다. 앞으로 실습하게 될 djangoproject.com 또한 그러한데요. 한번 우리가 만드려고 하는 사이트의 구조를 위에서 배운 개념에 맞게 손으로 그려보겠습니다.
+우리가 만들려고 하는 실습 예제도 이렇게 구조를 미리 짜보도록 하겠습니다. 저는 djangoproject.com 이라는 장고 공식 사이트를 실습하기 좋도록 구조를 조금 바꿔 보았습니다. 앞으로는 이 예제를 보면서 실습해 나가겠습니다.
 
-```
-header
-main > hero section > main-content > side-content
-footer: content-info > links > footer
+그럼, 이 예제를 한번 그려 보겠습니다.
+
+```html
+<header class="header">헤더</header>
+<main class="main">
+  <div class="hero-section">히어로 영역</div>
+  <div class="main-content">메인 콘텐트</div>
+  <div class="side-content">사이드 콘텐트</div>
+</main>
+<footer class="footer">푸터</footer>
 ```
 
 기본적인 레이아웃만 먼저 CSS로 스타일링 해두고, 이제부터는 조금씩 완성해 나가면서 배워보도록 하겠습니다.
-
-HTML과 CSS에는 정답이 없습니다. 사람마다, 상황마다 다른 마크업과 스타일링이 가능합니다. 제가 작성한 구조 혹은 태그가 정답이 아닐 수 있으니, 제가 왜 저런 생각을 했는지에 조금 더 초점을 맞춰서 공부를 해나가시면 좋을 것 같습니다.

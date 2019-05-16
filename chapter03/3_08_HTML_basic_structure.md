@@ -1,12 +1,33 @@
 # 3-07. HTML의 기본 구조
 
-지금까지는 codepen을 이용하여 body 내부에서 화면에 보여지는 여러 태그를 살펴 보았습니다. 그래서 문서에 보이지 않는 부분은 따로 작성하지 않았는데요. 이제는 에디터를 사용하여 실제 실습을 진행할 것이므로 HTML의 기본 구조를 알아 보겠습니다. VS code를 켜보겠습니다.
+- 실습 사이트 예제: https://python-lecture-example-1.netlify.com/
+- 코드: https://github.com/tinytinystone/python-lecture-example/tree/3_08_html_basic_structure
 
-먼저 `!`를 치고 컨트롤 혹은 커맨드를 눌러보세요. emmet 단축키가 HTML의 기본 구조를 자동으로 생성해 줍니다. 하나씩 살펴보겠습니다.
+지금까지는 codepen을 이용하여 body 내부에서 화면에 보여지는 여러 태그를 살펴 보았습니다. 그래서 문서에 보이지 않는 부분은 따로 작성하지 않았는데요. 이제는 에디터를 사용하여 실제 실습을 진행할 예정이니, HTML의 문서 전체를 작성해보면서 기본 구조를 알아 보겠습니다.
 
-문서 최상단에는 문서 타입이 정의되어 있습니다. 이를 DOCTYPE 선언이라고 부릅니다. DOCTYPE은 어떤 버전으로 작성되었는지 브라우저에게 알려주는 선언문 같은 것입니다. 반드시 문서 내의 최상단에 위치해야 합니다. 어떤 것도 DOCTYPE보다 먼저 나와서는 안 됩니다. HTML은 인터프리터 언어라 해석을 라인별로 한다. 따라서 순서가 중요하지요.
+VS code를 켜보겠습니다. VS code의 탐색기는 폴더를 기준으로 내부의 파일을 모두 보여주는 형태입니다. html 파일, css 파일 등 여러 개의 파일을 옮겨다니면서 코딩을 해야 하기 때문입니다.
 
-지금 보이는 DOCTYPE 선언은 HTML5 버전의 DOCTYPE이고 최근에 가장 많이 사용되고 있습니다. 다른 DOCTYPE을 발견하신다면 구 버전이라고 생각하시면 되겠습니다. DOCTYPE을 선언하지 않거나 잘못 선언한 경우, 브라우저가 문서를 잘못된 방식으로 해석할 수 있으니 유의해 주세요.
+새로운 폴더를 만들고 그 안에서 html, css 파일을 생성해 보겠습니다.
+
+저는 문서 혹은 document 폴더 안에 website-example이라는 이름의 새로운 폴더를 만들겠습니다.
+
+그리고 index.html이라는 파일을 만들어보겠습니다. 그리고 `!`를 치고 컨트롤 혹은 커맨드를 눌러보세요. emmet 단축키가 HTML의 기본 구조를 자동으로 생성해 줍니다. 하나씩 살펴보겠습니다.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>The Web framework for perfectionists with deadlines | Django</title>
+  </head>
+  <body></body>
+</html>
+```
+
+문서 최상단에는 문서 타입이 정의되어 있습니다. 이를 DOCTYPE 선언이라고 부릅니다. DOCTYPE은 어떤 버전으로 작성되었는지 브라우저에게 알려주는 선언문 같은 것입니다. 반드시 문서 내의 최상단에 위치해야 합니다. 지금 보이는 DOCTYPE 선언은 HTML5 버전의 DOCTYPE이고 최근에 가장 많이 사용되고 있습니다. 다른 DOCTYPE을 발견하신다면 구 버전이라고 생각하시면 되겠습니다. DOCTYPE을 선언하지 않거나 잘못 선언한 경우, 브라우저가 문서를 잘못된 방식으로 해석할 수 있으니 유의해 주세요.
 
 다음은 `<html>` 요소입니다. `<html>` 요소는 최상위 레벨의 요소로, 루트 요소라고도 부릅니다. HTML 요소에는 lang이라는 attribute가 들어갈 수 있는데요. 검색엔진이나 브라우저가 참고할 수 있도록 해당 문서가 어떤 언어로 작성되었는지 나타내주는 속성입니다. 우리가 작성할 문서는 영어로 되어 있는 사이트이니, 그대로 두겠습니다. 한국어로 작성된 사이트를 만드실거라면 ko로 수정하시면 됩니다.
 
