@@ -1,6 +1,6 @@
 # 패스트캠퍼스 파이썬 웹 개발 올인원 패키지 online: Web Front-end 파트
 
-패스트캠퍼스 온라인 강의 저장소입니다. https://www.fastcampus.co.kr/dev_online_pyweb/
+원하는 파트를 클릭하시면, 내용 요약, 실습 코드, 참고 링크 등을 확인하실 수 있습니다.
 
 ## Chapter 1. 인터넷과 웹 브라우저
 
@@ -16,8 +16,8 @@
 1. [프론트엔드와 백엔드](./chapter02/2_01_frontend_and_backend.md)
 1. [HTML](./chapter02/2_02_html.md)
 1. [CSS](./chapter02/2_03_css.md)
-1. [JavaScript](./chapter02/2_04_codepen_mdn_devdocs.md)
-1. [Codepen.io 사용법, MDN, devdocs.io 검색엔진 추가](./chapter02/2_05_javascript.md)
+1. [JavaScript](./chapter02/2_05_javascript.md)
+1. [Codepen.io 사용법, MDN, devdocs.io 검색엔진 추가](./chapter02/2_04_codepen_mdn_devdocs.md)
 1. [퀴즈 (2)](https://forms.gle/o3gVWj9Lv1hUtmRB6)
 
 ## Chapter 3. HTML/CSS 연습 (1)

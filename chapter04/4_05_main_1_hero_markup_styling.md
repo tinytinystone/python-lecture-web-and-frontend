@@ -3,7 +3,9 @@
 - 실습 사이트 예제: https://python-lecture-example-1.netlify.com/
 - 코드: https://github.com/tinytinystone/python-lecture-example/tree/4_05_main_1_hero_markup_styling
 
-html 필요 없는 부분 접기 - header 부분 접어놓고 시작
+(추후 업데이트 예정)
+
+<!-- html 필요 없는 부분 접기 - header 부분 접어놓고 시작
 
 - main에는 총 3개의 섹션
 
@@ -38,4 +40,4 @@ html 필요 없는 부분 접기 - header 부분 접어놓고 시작
     .cta:hover,
     .cta:active {
     background-color: #51be95;
-    }
+    } -->
