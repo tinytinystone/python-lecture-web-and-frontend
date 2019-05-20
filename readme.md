@@ -46,3 +46,12 @@
 1. [실습 8: main > side-content 마크업](./chapter04/4_09_main_4_side_markup.md)
 1. [실습 9: main > side-content 스타일링](./chapter04/4_10_main_5_side_styling.md)
 1. [실습 10: footer 요소](./chapter04/4_11_footer_markup_styling.md)
+
+## chapter 5. Git/Github
+
+1. [버전 관리 소개](./chapter05/5_01_introduction_to_version_control.md)
+1. [git 설치](./chapter05/5_02_install_git.md)
+1. [git이 관리하는 세 영역: 작업 디렉터리, 스테이징 영역, 저장소](./chapter05/5_03_git_init_commit.md)
+1. [github 가입하기](./chapter05/5_04_register_github.md)
+1. [원격 저장소 이용하기: github](./chapter05/5_05_github.md)
+1. [github pages 호스팅 사용해 보기](./chapter05/5_06_upload_to_github_io.md)
